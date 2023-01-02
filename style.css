@@ -1,0 +1,45 @@
+* a {
+    text-decoration: none;
+    font-size: 16px;
+    padding-top: 0.5rem;
+    padding-right: 1rem;
+    padding-bottom: 0.5rem;
+    padding-left: 1rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+.upper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+tab-size: 4;
+}
+
+.logo {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  
+}
+.usebiolink {
+
+
+}
+.login {
+    
+    margin-left: 100px;
+    box-sizing: border-box;
+    display: flex;
+}
+.login_button {
+    background-color: rgb(245, 243, 255);
+    color: black;
+}
+.get_started_button {
+    background-color: rgb(241, 104, 76);
+    color: white;
+}
