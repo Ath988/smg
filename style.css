@@ -1,4 +1,5 @@
-body, html {
+body,
+html {
     font-family: 'Space Grotesk', sans-serif;
 
 }
@@ -25,7 +26,7 @@ a {
     align-items: center;
     line-height: 24px;
     gap: 20px;
-    
+
 }
 
 .logo {
@@ -63,15 +64,51 @@ a {
     line-height: 24px;
     border-radius: 0.25rem;
 }
-h1 {
-    box-sizing: border-box;
-    display: block;
-    line-height: 20px;
+
+.socialmedia {
+    
+   
+    line-height: 260x;
     font-size: 20px;
 }
+
 .socialmedia {
     font-size: 60px;
+    padding-top: 94px;
+    padding-left: 156px;
+    margin-bottom: 70px;
+    padding-right: 460px;
+    
+    
 }
+
 .information {
     font-size: 20px;
+    
+
+    padding-left: 156px;
+    padding-right:350px;
+    
+   
+
+}
+
+.boyy {
+float: right;
+padding: 160px;
+padding-top: -80px;
+
+
+}
+.genel {
+    
+    display: flex;
+}
+div.login_button {
+    padding: 20px;
+}
+@media screen and (max-width: 600px) {
+    div.login_button 
+    display: none;
+    
 }
