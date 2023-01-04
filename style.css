@@ -41,7 +41,6 @@ a {
     box-shadow: rgba(0, 0, 0, 0.1) 0px 20px 25px -5px, rgba(0, 0, 0, 0.04) 0px 10px 10px -5px;
 }
 
-.usebiolink {}
 
 .login {
 
@@ -80,37 +79,40 @@ a {
     padding-left: 156px;
     margin-bottom: 70px;
     padding-right: 460px;
-    
-    
+
+
 }
 
 .information {
     font-size: 20px;
-    
+
 
     padding-left: 156px;
-    padding-right:350px;
-    
-   
+    padding-right: 350px;
+
+
 
 }
 
 .boyy {
-margin-right: 100px;
-padding: 100px;
-margin-top: 38px;
+    margin-right: 100px;
+    padding: 100px;
+    margin-top: 38px;
 
 
 }
+
 .genel {
-    
+
     display: flex;
 }
+
 @media screen and (max-width: 600px) {
     div.login_button {
-      display: none;
+        display: none;
     }
 }
+
 .letterbox {
     font-weight: 500;
     font-size: 23px;
@@ -128,34 +130,38 @@ margin-top: 38px;
     margin-right: 150px;
     text-shadow: 2px 2px #252525;
 }
+
 .glossary_articles {
     width: 25%;
     margin-bottom: 30px;
     text-align: center;
     margin: 65px;
 }
+
 .glossary_title {
     margin-bottom: 30px;
-    
+
     text-align: center;
-    
+
     padding-bottom: 40px;
     padding-top: 40px;
     font-weight: 600;
     font-size: 64px;
     background-color: #F1684C;
-    
+
     border-radius: 20px;
- 
+
 }
+
 .glossarycontent {
     display: flex;
     flex-wrap: wrap;
     text-align: center;
 }
+
 a.word {
-font-size: 36px;
-color: rgb(255, 255, 255);
+    font-size: 36px;
+    color: rgb(255, 255, 255);
 
 }
 
@@ -168,6 +174,7 @@ color: rgb(255, 255, 255);
     margin-top: 75px;
     float: left;
 }
+
 .glossary_excerpt {
     font-size: 20px;
 }
