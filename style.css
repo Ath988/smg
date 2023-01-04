@@ -94,9 +94,9 @@ a {
 }
 
 .boyy {
-float: right;
-padding: 160px;
-padding-top: -80px;
+margin-right: 100px;
+padding: 100px;
+margin-top: 38px;
 
 
 }
@@ -104,11 +104,24 @@ padding-top: -80px;
     
     display: flex;
 }
-div.login_button {
-    padding: 20px;
-}
 @media screen and (max-width: 600px) {
-    div.login_button 
-    display: none;
-    
+    div.login_button {
+      display: none;
+    }
+}
+.letterbox {
+    font-weight: 500;
+    font-size: 23px;
+    line-height: 30px;
+    font-weight: 600;
+    text-transform: uppercase;
+    color: rgb(241, 104, 76);
+    cursor: pointer;
+    text-align: center;
+    padding: 0 5px;
+    overflow: auto;
+    display: flex;
+    justify-content: space-between;
+    margin-left: 50px;
+    margin-right: 50px;
 }
