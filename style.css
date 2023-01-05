@@ -112,7 +112,7 @@ a {
         display: none;
     }
     div.glossarycontent {
-        flex-direction: column;
+        display: inline;
       }
 
       div.glossary_articles {
@@ -140,7 +140,7 @@ a {
 }
 
 .glossary_articles {
-    width: 25%;
+    
     margin-bottom: 30px;
     text-align: center;
     margin: 65px;
@@ -162,9 +162,9 @@ a {
 }
 
 .glossarycontent {
-    display: flex;
-    flex-wrap: wrap;
-    text-align: center;
+    display: grid;
+    grid-template-rows:    repeat(4, 300px);
+grid-template-columns: repeat(3, 1fr);
 }
 
 a.word {
@@ -174,13 +174,14 @@ a.word {
 }
 
 .main_letter {
-    width: 100%;
+    display: ;
     font-size: 42px;
     font-weight: 600;
     line-height: 42px;
     margin-bottom: 15px;
     margin-top: 75px;
-    float: left;
+    float: center;
+    text-align: center;
 }
 
 .glossary_excerpt {
