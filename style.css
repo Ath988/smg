@@ -107,10 +107,18 @@ a {
     display: flex;
 }
 
-@media screen and (max-width: 600px) {
-    div.login_button {
+@media (max-width: 600px) {
+    div.upper {
         display: none;
     }
+    div.glossarycontent {
+        flex-direction: column;
+      }
+
+      div.glossary_articles {
+        width: 80%;
+      }
+    
 }
 
 .letterbox {
@@ -178,3 +186,4 @@ a.word {
 .glossary_excerpt {
     font-size: 20px;
 }
+
